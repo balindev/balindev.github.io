@@ -1,0 +1,62 @@
+.header {
+    background: #000000;
+    margin: 0px;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+}
+
+#description {
+    padding-top: 10px;
+    font-size: 30px;
+    text-align: center;
+    margin: 25px;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+#tag {
+    text-align: center;
+}
+
+button {
+    background-color: #ececec;
+    color: rgb(0, 0, 0);
+    padding: 20px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 200%;
+    border-radius: 10px;
+    font-size: 29px;
+    font-family: 'Cabin', sans-serif;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+body::-webkit-scrollbar {
+    width: 12px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #494949;
+}
+
+/* Handle */
+
+body::-webkit-scrollbar-thumb {
+    background: #000000;
+    transition: 0.3s;
+}
+
+/* Handle on hover */
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #000000;
+}
