@@ -34,7 +34,7 @@ button {
     border: none;
     cursor: pointer;
     width: 200%;
-    border-radius: 10px;
+    border-radius: 8px;
     font-size: 29px;
     font-family: 'Cabin', sans-serif;
 }
