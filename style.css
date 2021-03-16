@@ -9,13 +9,16 @@
 
 #description {
     padding-top: 10px;
-    font-size: 30px;
+    font-size: 22px;
     text-align: center;
     margin: 25px;
 }
 
 body {
-    font-family: 'Cabin', sans-serif;
+    font-family: 'MinecraftiaRegular';
+    font-weight: normal;
+    font-style: normal;
+    /**font-family: 'Cabin', sans-serif;**/
     margin: 0px;
     padding: 0px;
 }
