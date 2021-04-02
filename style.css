@@ -1,5 +1,10 @@
+@font-face {
+  src: url(./04B_03__.ttf);
+  font-family: pixel;
+}
+
 .header {
-    background: #639bff;
+    background: #171717;
     margin: 0px;
     text-align: center;
     font-size: 30px;
@@ -9,34 +14,36 @@
 
 #description {
     padding-top: 10px;
-    font-size: 22px;
+    font-size: 27px;
     text-align: center;
     margin: 25px;
+    color: #ffffff;
 }
 
 body {
-    font-family: 'MinecraftiaRegular';
+    font-family: pixel;
     font-weight: normal;
     font-style: normal;
     /**font-family: 'Cabin', sans-serif;**/
     margin: 0px;
     padding: 0px;
+    background: #1f1f1f;
 }
 #tag {
     text-align: center;
 }
 
 button {
-    background-color: #fafafa;
-    color: rgb(0, 0, 0);
+    background-color: #292929;
+    color: rgb(255, 255, 255);
     padding: 20px 20px;
     margin: 10px 0;
     border: none;
     cursor: pointer;
     width: 200%;
-    border-radius: 8px;
-    font-size: 29px;
-    font-family: 'Cabin', sans-serif;
+    border-radius: 3px;
+    font-size: 25px;
+    font-family: pixel;
 }
 
 button:hover {
